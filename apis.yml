@@ -1,7 +1,28 @@
 aid: parenthoods
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parenthoods.png
 name: parenthoods
-description: parenthoods is a company surfaced as a portfolio company of slow-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Parenthoods was a Y Combinator-backed mobile social network for parents,
+  founded in 2014 by Siobhan Quinn and Jeni Axline in San Francisco, that helped
+  local moms and dads discover nearby parents and share parenting experiences to
+  counter the social isolation of early parenthood. The company raised a $1.32M
+  seed round in November 2014 with participation from Slow Ventures, Lowercase
+  Capital, 500 Global, and Y Combinator. The product shipped as an iOS mobile
+  application and never published a public developer API, OpenAPI definition,
+  SDKs, or documentation portal. The parenthoods.com domain now redirects to
+  Wonderschool, and this profile is retained in the API Evangelist network as a
+  Slow Ventures portfolio lead with no discoverable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/parenthoods/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Parenting
+- Social Network
+- Mobile
+- Consumer
+- Y Combinator
+- Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://parenthoods.com
+- type: DomainSecurity
+  url: security/parenthoods-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
